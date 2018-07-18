@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Hello World! First Post from Goeun
+categories:
+  - Category Test
 excerpt_separator:  <!--more-->
+
 ---
 
 #Header1
