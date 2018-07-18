@@ -2,7 +2,7 @@
 layout: post
 title: Hello World! First Post from Goeun
 categories:
-  - My Category
+  - Test Category
 excerpt_separator:  <!--more-->
 
 ---
