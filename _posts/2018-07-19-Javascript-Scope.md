@@ -7,7 +7,7 @@ excerpt_separator:  <!--more-->
 
 ---
 
-## #유효범위
+#유효범위
 
 Javascript 는 함수에 대한 유효범위만을 제공한다.
 cf ) Java : 블록({})단위에 대한 유효범위 제공
