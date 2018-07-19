@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Test Category
+title: Javascript
 ---
 
 Sample category page. You need to create a page for each category.
