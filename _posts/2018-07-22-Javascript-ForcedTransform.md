@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript - 자료형 변환하기 : 강제 자료형 변환
+title: Javascript - 자료형 변환하기 (강제 자료형 변환)
 categories:
   - Javascript
 excerpt_separator:  <!--more-->
@@ -27,7 +27,7 @@ ex/ Number('any type'), String('any type'), Boolean('any type')
 ### 3.Boolean()
 
 1.  다음을 제외한 모든 값이 true 로 출력됨.
-    Boolean(0), Boolean(NaN), Boolean(undefined), Boolean(null), Boolean('') : false
+    - Boolean(0), Boolean(NaN), Boolean(undefined), Boolean(null), Boolean('') : false
 
 ---
 
