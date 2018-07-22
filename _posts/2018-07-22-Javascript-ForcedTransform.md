@@ -31,7 +31,7 @@ ex/ Number('any type'), String('any type'), Boolean('any type')
 
 ---
 
-<p data-height="265" data-theme-id="0" data-slug-hash="ejgaMZ" data-default-tab="js,result" data-user="gonni" data-embed-version="2" data-pen-title="자료형 변환하기 - 강제변환" class="codepen"> See the Pen <a href="https://codepen.io/gonni/pen/ejgaMZ/"> 자료형 변환하기 - 강제변환 </a> by gonni (<a href="https://codepen.io/gonni"> @gonni </a>) on <a href="https://codepen.io"> CodePen </a> . </p>
+<p data-height="425" data-theme-id="0" data-slug-hash="ejgaMZ" data-default-tab="result" data-user="gonni" data-embed-version="2" data-pen-title="자료형 변환하기 - 강제변환" class="codepen"> See the Pen <a href="https://codepen.io/gonni/pen/ejgaMZ/"> 자료형 변환하기 - 강제변환 </a> by gonni (<a href="https://codepen.io/gonni"> @gonni </a>) on <a href="https://codepen.io">CodePen</a> . </p>
 <script src="https://static.codepen.io/assets/embed/ei.js"> </script>
 
 NaN(Not a Number) : 숫자로 나타낼 수 없는 숫자 의미, 숫자로 나타낼 수는 없지만 강제로 자료형을 변환
