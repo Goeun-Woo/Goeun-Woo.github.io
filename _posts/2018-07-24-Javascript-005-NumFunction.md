@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript 내장함수 - 숫자 함수
+title: Javascript - 내장함수(숫자 함수)
 categories:
   - Javascript
 excerpt_separator:  <!--more-->
