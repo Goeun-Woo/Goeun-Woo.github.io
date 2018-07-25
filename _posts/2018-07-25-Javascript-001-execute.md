@@ -4,7 +4,6 @@ title: Javascript : 실행순서
 categories:
   - Javascript
 excerpt_separator:  <!--more-->
-
 ---
 
 ### 1. 자바스크립트의 실행 순서
