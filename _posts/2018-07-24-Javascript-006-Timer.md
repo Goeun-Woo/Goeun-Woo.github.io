@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript 내장함수 - Timer
+title: Javascript - 내장함수(Timer)
 categories:
   - Javascript
 excerpt_separator:  <!--more-->
