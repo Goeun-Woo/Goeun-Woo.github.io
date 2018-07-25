@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript : Javascript - ECMASCript 5,6 비교하기 (함수)
+title: Javascript - 함수 선언 방식
 categories:
   - Javascript
 excerpt_separator:  <!--more-->

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript 내장함수 - Encoding, Decoding
+title: Javascript - 내장함수 (Encoding, Decoding)
 categories:
   - Javascript
 excerpt_separator:  <!--more-->

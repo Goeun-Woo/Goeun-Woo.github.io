@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript : Javascript - 실행순서
+title: Javascript - 실행 순서
 categories:
   - Javascript
 excerpt_separator:  <!--more-->
