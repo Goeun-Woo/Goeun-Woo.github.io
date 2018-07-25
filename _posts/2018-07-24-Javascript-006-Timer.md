@@ -13,16 +13,16 @@ excerpt_separator:  <!--more-->
 
 ###### 1.1 setTimeout()
 
-특정 시간 후에 `함수를 1번만 실행`하는 함수
-사용 매개변수
+- 특정 시간 후에 `함수를 1번만 실행`하는 함수
+- 사용 매개변수
 
 1.  function
 2.  시간(milliseconds): 1000 밀리초 = 1 초
 
 ###### 1.2 setInterval()
 
-특정 시간마다 `함수를 반복적으로 실행`하는 함수
-사용 매개변수
+- 특정 시간마다 `함수를 반복적으로 실행`하는 함수
+- 사용 매개변수
 
 1.  function
 2.  시간(milliseconds): 1000 밀리초 = 1 초
@@ -31,15 +31,15 @@ excerpt_separator:  <!--more-->
 
 ###### 2.1 clearTimeout()
 
-setTimeout()으로 설정한 타이머를 제거하는 함수.
-사용 매개변수
+- setTimeout()으로 설정한 타이머를 제거하는 함수.
+- 사용 매개변수
 
 1.  id
 
 ###### 2.2 clearInterval()
 
-setInterval()으로 설정한 타이머를 제거하는 함수.
-사용 매개변수
+- setInterval()으로 설정한 타이머를 제거하는 함수.
+- 사용 매개변수
 
 1.  id
 
