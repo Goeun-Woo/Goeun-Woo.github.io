@@ -13,7 +13,7 @@ excerpt_separator:  <!--more-->
 
 ###### 1.1 isFinite()
 
-> 셀 수 있는 수면 true 출력
+> 셀 수 있는 수면 true 출력  
 > 셀 수 없는 수(숫자가 아니거나 무한대의 수)면 false 출력
 
 ```
@@ -26,7 +26,7 @@ excerpt_separator:  <!--more-->
 
 ###### 1.2 isNaN()
 
-> NaN(Not a Number)이면 true 출력
+> NaN(Not a Number)이면 true 출력  
 > NaN(Not a Number)이 아니면 false 출력
 
 ```
