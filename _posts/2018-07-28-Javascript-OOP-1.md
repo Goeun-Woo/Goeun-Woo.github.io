@@ -64,7 +64,7 @@ for(var k=0; k< students.length; k++){
 - 서로 다른 기능을 하는 코드들이 혼재되어 있어 코드의 가독성이 떨어짐
 - 이를 위해 기능 별로 코드를 분리하여 코드의 가독성을 높이고자 함.
 
-<p data-height="265" data-theme-id="0" data-slug-hash="yqPejO" data-default-tab="js,result" data-user="cathy-go-eun-woo" data-pen-title="Javascript 객체지향 기본[1] : 객체를 만드는 함수" class="codepen">See the Pen <a href="https://codepen.io/cathy-go-eun-woo/pen/yqPejO/">Javascript 객체지향 기본[1] : 객체를 만드는 함수</a> by Cathy Go Eun Woo (<a href="https://codepen.io/cathy-go-eun-woo">@cathy-go-eun-woo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="265" data-theme-id="0" data-slug-hash="yqPejO" data-default-tab="js" data-user="cathy-go-eun-woo" data-pen-title="Javascript 객체지향 기본[1] : 객체를 만드는 함수" class="codepen">See the Pen <a href="https://codepen.io/cathy-go-eun-woo/pen/yqPejO/">Javascript 객체지향 기본[1] : 객체를 만드는 함수</a> by Cathy Go Eun Woo (<a href="https://codepen.io/cathy-go-eun-woo">@cathy-go-eun-woo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script src="https://static.codepen.io/assets/embed/ei.js"> </script>
 ----
 
