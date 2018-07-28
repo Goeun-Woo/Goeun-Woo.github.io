@@ -17,7 +17,7 @@ excerpt_separator:  <!--more-->
 
 - 한계점 : 개발자들의 언어 규칙일 뿐, 실제 자바스크립트 내에서 제한 할 수는 없음.
 
-> <u>**1.1 Rectangle 생성자 함수 선언**</u>
+> **1.1 Rectangle 생성자 함수 선언**
 
 ```
 function Rectangle(width, height){
@@ -26,7 +26,7 @@ function Rectangle(width, height){
 }
 ```
 
-> <u>**1.2 메서드(프로토타입) 선언**</u>
+> **1.2 메서드(프로토타입) 선언**
 
 ```
 Rectangle.prototype.getArea = function (){
@@ -34,7 +34,7 @@ Rectangle.prototype.getArea = function (){
 }
 ```
 
-> <u>**1.3 인스턴스 생성 및 출력**</u>
+> **1.3 인스턴스 생성 및 출력**
 
 ```
 var rectangle = new Rectangle(5,7);
@@ -54,7 +54,7 @@ document.write('Area : ' + rectangle.getArea() );	// Area : 35
 - 한계점 : 생성자 함수 안에 Getter/Setter 함수를 선언하므로 약간의 메모리 낭비가 발생
 - 하지만, 완벽한 캡슐화가 가능하다.
 
-> <u>**2.1 Rectangle 생성자 함수 선언**</u>  
+> **2.1 Rectangle 생성자 함수 선언**  
 > 생성자 함수 안에 Getter/Setter 선언
 
 ```
@@ -80,7 +80,7 @@ function Rectangle (width, height) {
 }
 ```
 
-> <u>**2.2 메서드(프로토타입) 선언**</u>  
+> **2.2 메서드(프로토타입) 선언**  
 > 자기 자신도 직접 접근이 불가능 --> `getter` 를 이용하여 접근
 
 ```
@@ -89,7 +89,7 @@ Rectangle.prototype.getArea = function (){
 }
 ```
 
-> <u>**2.3 인스턴스 생성 및 출력**</u>
+> **2.3 인스턴스 생성 및 출력**
 
 ```
 var rectangle = new Rectangle(5,7);
@@ -105,7 +105,7 @@ document.write('Area : ' + rectangle.getArea() );	// Area : 50
 - 기존의 클로저 방식의 메모리 낭비 문제를 해결하기 위한 타협점
 - **프로토 타입으로 캡슐화하기**
 
-> <u>**3.1 Rectangle 생성자 함수 선언**</u>
+> **3.1 Rectangle 생성자 함수 선언**
 
 ```
 function Rectangle (width, height) {
@@ -114,7 +114,7 @@ function Rectangle (width, height) {
 }
 ```
 
-> <u>**3.2 Getter/Setter 를 프로토타입으로서 선언**</u>  
+> **3.2 Getter/Setter 를 프로토타입으로서 선언**  
 > 리턴 타입을 `this.속성명` 형태로 변환
 
 ```
@@ -141,7 +141,7 @@ function Rectangle (width, height) {
    }
 ```
 
-> <u>**2.3 인스턴스 생성 및 출력**</u>
+> **2.3 인스턴스 생성 및 출력**
 
 ```
 var rectangle = new Rectangle(5,7);
