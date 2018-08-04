@@ -38,13 +38,13 @@ excerpt_separator:  <!--more-->
 <input type ="button" id="target" onClick ="alert('Hello world')" />
 ```
 
-> getElementById : 하나의 결과만을 리턴하기 때문에 id 값이 2 개일 경우에는 정상 작동하지 않음  
-> ** this ** 활용하기 : 코드 관리가 용이함
+> `getElementById` : 하나의 결과만을 리턴하기 때문에 id 값이 2 개일 경우에는 정상 작동하지 않음  
+> `this` 활용하기 : 코드 관리가 용이함
 
 ```
 자기 자신을 참조하는 불편한 방법 : document.getElementById('target').value
 
-<input type="button" id="target" onclick="alert('Hello world, '+document.getElementById('target').value);" value="button" />
+<input type="button" id="target" onclick="alert('Hello world, '  +document.getElementById('target').value);" value="button" />
 
 this를 통해서 간편하게 참조할 수 있다 : this.value
 
@@ -57,9 +57,8 @@ this를 통해서 간편하게 참조할 수 있다 : this.value
 > 이벤트 핸들러의 첫번째 인자 `'event' 객체` : 현재 발생한 이벤트에 대한 정보를 얻을 수 있음.  
 > event 객체의 target 프로퍼티 : event 라는 기능자체의 객체  
 > value : event.target 이 가지고 있는 `value="button"` 출력  
-> Cross Browsing Issue : IE 8 이하에서는 `전역객체의 event 프로퍼티로 제공`하기 때문에 다음 방식으로 문제 해결.  
-> 같은 이벤트 이름으로 단 하나의 이벤트 핸들러만을 사용할 수 있음  
-> : 재사용 불가
+> `Cross Browsing Issue` : IE 8 이하에서는 `전역객체의 event 프로퍼티로 제공`하기 때문에 다음 방식으로 문제 해결.  
+> `재사용 불가` : 같은 이벤트 이름으로 단 하나의 이벤트 핸들러만을 사용할 수 있음
 
 ```
 var event = event || window.event;
