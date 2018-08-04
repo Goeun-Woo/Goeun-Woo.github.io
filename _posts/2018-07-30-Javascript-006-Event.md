@@ -9,7 +9,7 @@ excerpt_separator:  <!--more-->
 
 ##### 1. 이벤트 기본
 
-> ** 1.1 이벤트 타입 **  
+> 1.1 이벤트 타입  
 > 이벤트의 종류를 의미한다.
 >
 > ```
@@ -27,7 +27,7 @@ excerpt_separator:  <!--more-->
 
 - 이벤트 프로그래밍을 하기 위해서는 이벤트의 대상에 이벤트 핸들러를 등록해야 한다.
 
-> ** 2.1 inline **  
+> 2.1 inline  
 > 이벤트를 이벤트 대상의 태그 속성으로 지정  
 > HTML input 태그 안에 이벤트가 직접 포함  
 > `정보(HTML)와 제어(Javascript)가 혼재된 형태`이기 때문에 바람직한 방법이라고 할수는 없다.  
@@ -51,7 +51,7 @@ this를 통해서 간편하게 참조할 수 있다 : this.value
 <input type="button" onclick="alert('Hello world, '+this.value);" value="button" />
 ```
 
-> ** 2.2 Property Listener **  
+> 2.2 Property Listener  
 > 이벤트 대상이 되는 객체의 프로퍼티로 이벤트 등록  
 > `<script> </script> 태그` 안에 메서드 정의  
 > 이벤트 핸들러의 첫번째 인자 `'event' 객체` : 현재 발생한 이벤트에 대한 정보를 얻을 수 있음.  
@@ -80,7 +80,7 @@ var target = event.target || event.srcElement;
 </script>
 ```
 
-> ** 2.3 addEventListener( ) **  
+> 2.3 addEventListener( )  
 > 이벤트를 등록하는 가장 권장되는 방식  
 > 복수의 엘리먼트에 하나의 리스너를 등록해서 재사용할 수 있다.  
 > Cross Browsing Issue : IE 8 이하에서는 attachEvent 메소드를 사용
