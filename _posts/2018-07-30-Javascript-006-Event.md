@@ -60,16 +60,13 @@ this를 통해서 간편하게 참조할 수 있다 : this.value
 > Cross Browsing Issue : IE 8 이하에서는 `전역객체의 event 프로퍼티로 제공`하기 때문에 다음 방식으로 문제 해결.  
 > 같은 이벤트 이름으로 단 하나의 이벤트 핸들러만을 사용할 수 있음  
 > : 재사용 불가
->
-> ```
-> var event = event || window.event;
-> var target = event.target || event.srcElement;
-> ```
 
+```
+var event = event || window.event;
+var target = event.target || event.srcElement;
 ```
 
 ```
-
 <body>
     <input type="button" id="target" value="button" />
 
@@ -81,14 +78,14 @@ this를 통해서 간편하게 참조할 수 있다 : this.value
         alert('Hello world, '+event.target.value)
     }
 </script>
-
 ```
+
 > ** 2.3 addEventListener( ) **  
 > 이벤트를 등록하는 가장 권장되는 방식  
 > 복수의 엘리먼트에 하나의 리스너를 등록해서 재사용할 수 있다.  
-> Cross Browsing Issue : IE 8 이하에서는 attachEvent 메소드를 사용  
-```
+> Cross Browsing Issue : IE 8 이하에서는 attachEvent 메소드를 사용
 
+```
 var t = document.getElementById('target');
 
 <!-- addEventListener -->
@@ -102,11 +99,11 @@ t.attachEvent('onclick', function(event){
 alert('Hello world, '+event.target.value);
 })
 }
-
 ```
+
 > 같은 이벤트 이름으로 여러 개의 이벤트를 추가할 수 있다.
-```
 
+```
     var t = document.getElementById('target');
     t.addEventListener('click', function(event){
         alert(1);
@@ -114,11 +111,11 @@ alert('Hello world, '+event.target.value);
     t.addEventListener('click', function(event){
         alert(2);
     });
-
 ```
+
 > 반대로 여러 엘리먼트를 하나의 이벤트 리스너로 등록하여 사용할 수 있다.
-```
 
+```
 var t1 = document.getElementById('target1');
 var t2 = document.getElementById('target2');
 
@@ -137,7 +134,4 @@ break;
 
 t1.addEventListener('click', btn_listener); //alert(1)
 t2.addEventListener('click', btn_listener); //alert(2)
-
-```
-
 ```
