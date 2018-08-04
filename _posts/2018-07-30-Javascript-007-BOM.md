@@ -10,9 +10,10 @@ excerpt_separator:  <!--more-->
 - 브라우저 객체 모델
 - 웹브라우저에서 사용하는 자바스크립트에서만 사용할 수 있는 객체 모델
 - 모든 브라우저 객체들은 window 객체에 귀속
-  > ```
-  > - BOM 객체의 종류
-  > ```
+ 
+ ```
+   - BOM 객체의 종류
+
       window.location
       window.navigator
       window.history
@@ -20,6 +21,7 @@ excerpt_separator:  <!--more-->
       window.documqent
 
 ```
+
 ----
 
 ### 2. window.onload( )  
@@ -27,8 +29,8 @@ excerpt_separator:  <!--more-->
 - HTML > HEAD > TITLE > SCRIPT > BODY > ...
 - document.querySelecor("") :  css selector를 통해 DOM을 찾을 수 있음.
 - head 태그 안의 script에 작성할 경우 body에 있는 선택자에 선택되지 않음.
-```
 
+```
 <html>
   <head>
     <title>Document Object Model</title>
