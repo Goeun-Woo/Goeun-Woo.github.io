@@ -62,11 +62,11 @@ excerpt_separator:  <!--more-->
 > > var array = ["red", "blue", "orange"]
 > > $("h1").css("color", function(index){
 > > ```
-
-    return array[index];
-
-})
-
+> >
+> > return array[index];
+> >
+> > })
+> >
 > > ```
 > >
 > > ```
