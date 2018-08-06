@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jQuery 객체 기본
+title: jQuery - 기본
 categories:
   - jQuery
 excerpt_separator:  <!--more-->
