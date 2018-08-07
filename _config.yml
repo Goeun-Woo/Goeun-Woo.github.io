@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            "Goeun's Devlog."
 tagline:          'A Jekyll theme'
-description:      '<a href="https://goeun-woo.github.io/myfirstweb_build/">Simple Introduction about Me.</a>'
+description:      '<a href="https://Goeun-Woo.github.io/simple-web/">Simple Introduction about Me.</a>'
 url:              https://fongandrew.github.io
 baseurl:          
                   # the optional subpath of your site, e.g. "/blog"
