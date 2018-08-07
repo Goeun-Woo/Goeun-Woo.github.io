@@ -61,14 +61,8 @@ excerpt_separator:  <!--more-->
 > > ```
 > > var array = ["red", "blue", "orange"]
 > > $("h1").css("color", function(index){
-> > ```
-> >
 > > return array[index];
-> >
 > > })
-> >
-> > ```
-> >
 > > ```
 
 > 1.2 Getter
