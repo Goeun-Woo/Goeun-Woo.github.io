@@ -7,8 +7,6 @@ excerpt_separator:  <!--more-->
 
 ---
 
-### 내장함수 - 타이머
-
 ##### 1. 타이머를 설정하는 함수
 
 ###### 1.1 setTimeout()

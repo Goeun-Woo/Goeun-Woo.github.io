@@ -7,12 +7,9 @@ excerpt_separator:  <!--more-->
 
 ---
 
-### 내장함수 - 숫자함수
+##### 1. 숫자 확인 함수
 
-#### 1. 숫자 확인 함수
-
-###### 1.1 isFinite()
-
+> 1.1 isFinite()
 > 셀 수 있는 수면 true 출력  
 > 셀 수 없는 수(숫자가 아니거나 무한대의 수)면 false 출력
 
@@ -24,8 +21,7 @@ excerpt_separator:  <!--more-->
 4) Number.MIN_VALUE 보다 작은 값
 ```
 
-###### 1.2 isNaN()
-
+> 1.2 isNaN()  
 > NaN(Not a Number)이면 true 출력  
 > NaN(Not a Number)이 아니면 false 출력
 
@@ -37,10 +33,9 @@ alert(isNaN(3));		//false
 
 ---
 
-#### 2.숫자 변환 함수
+##### 2.숫자 변환 함수
 
-###### 2.1 parseInt()
-
+> 2.1 parseInt()  
 > 정수(Integer)로 추출할 수 있는 부분을 앞쪽부터 읽으면서 변환
 
 ```
@@ -49,8 +44,7 @@ parseInt('200가나다라'); //200
 parseInt('rsdfdfsf200'); //NaN
 ```
 
-###### 2.1 parseFloat()
-
+> 2.2 parseFloat()  
 > 부동소수점(Float)으로 추출할 수 있는 부분을 앞쪽부터 읽으면서 변환
 
 ```
