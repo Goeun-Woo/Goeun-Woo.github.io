@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            "Goeun's Devlog."
 tagline:          'A Jekyll theme'
 description:      '<a href="https://Goeun-Woo.github.io/simple-web/">Simple Introduction about Me.</a>'
-url:              https://fongandrew.github.io
+url:              https://github.com/Goeun-Woo/Goeun-Woo.github.io
 baseurl:          
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -35,4 +35,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/Goeun-Woo/Goeun-Woo.github.io
