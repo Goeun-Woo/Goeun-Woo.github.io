@@ -13,7 +13,7 @@ excerpt_separator:  <!--more-->
 ```
 
 ##### 해결방법
-- npm update 를 한번 해준뒤 다시 npm start 를 실행시켜주면된다.
+- npm update 를 한번 해준뒤 다시 npm start 를 실행시켜주면 된다.
 
 ```
 npm update
